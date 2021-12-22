@@ -1,0 +1,52 @@
+html {
+    
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    background-color:hsl(217, 54%, 11%);
+}
+
+footer {
+    margin: 10% auto 10% auto;
+    text-align: center;
+}
+
+h1 {
+    color:hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+
+hr {
+    width: 91.66%;
+    border: none;
+    height: 0.8px;
+    color: #333;
+    background-color: hsl(215, 32%, 27%);
+}
+
+img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.card {
+    margin: 10% auto 10% auto;
+}
+
+.container {
+    background-color: hsl(216, 50%, 16%);
+    padding: 10px;
+}
+
+.price {
+    display: flex;
+}
+
+
+.author {
+    width: 100%;
+    display: flex;
+}
