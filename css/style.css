@@ -1,12 +1,20 @@
 html {
-    
+    box-sizing: border-box;
+    font-size: 100%;
+  }
+  
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
 }
 
 body {
     font-family: 'Outfit', sans-serif;
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 300;
     background-color:hsl(217, 54%, 11%);
+    color: hsl(215, 51%, 70%);
 }
 
 footer {
@@ -17,6 +25,13 @@ footer {
 h1 {
     color:hsl(0, 0%, 100%);
     font-weight: 600;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 11px;
+    flex-grow: 2;
+    color: hsl(178, 100%, 50%);
 }
 
 hr {
@@ -38,15 +53,31 @@ img {
 
 .container {
     background-color: hsl(216, 50%, 16%);
-    padding: 10px;
-}
-
-.price {
-    display: flex;
+    padding: 20px;
 }
 
 
 .author {
     width: 100%;
     display: flex;
+}
+
+.details {
+    display: flex;
+}
+
+.price, .time_limit {
+    flex: 1 1 auto;
+}
+
+.price img {
+    width: 10%;
+}
+
+.time_limit img {
+    width: 15%;
+}
+
+.time_limit p {
+    font-weight: 400;
 }
